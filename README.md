@@ -1,4 +1,4 @@
-ImageResize
+PHP ImageResize
 ===========
 
 Copy and resize images to your desired size
