@@ -5,7 +5,9 @@ Copy and resize images to your desired size
 
 
 ##Contributors:
-- [Ghasem Paran](http://khabargir.ir)  
+- [Ghasem Paran](http://khabargir.ir)
+- Thanks to Mohammad Rezaei
+
 
 ##Requirements
 ImageResize Requires **PHP >= 5.2**  
