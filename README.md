@@ -10,7 +10,8 @@ Copy and resize images to your desired size
 
 
 ##Requirements
-ImageResize Requires **PHP >= 5.2**  
+- ImageResize Requires **PHP >= 5.2**
+- GD Library
 
 ##License
 ImageResize was created by [Ghasem Paran](http://khabargir.ir) and released under the [MIT License](http://opensource.org/licenses/mit-license.php).
