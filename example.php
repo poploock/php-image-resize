@@ -30,7 +30,7 @@ $image->__set('new_height' , "70");
 // set quality of image
 $image->__set('quality' , "100");
 
-// set upload patch and file not exist
+// set upload patch and file not exist and filename Is initialized
 $image->check();
 
 // save image
