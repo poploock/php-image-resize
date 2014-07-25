@@ -18,6 +18,9 @@ $image->__set('file_prefix' , "prefix_");
 // set file suffix
 $image->__set('file_suffix' , "_suffix");
 
+// set file extension
+$image->__set('file_extension' , "jpg");
+
 // set width of image
 $image->__set('new_width' , "70");
 
