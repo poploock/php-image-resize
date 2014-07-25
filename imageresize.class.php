@@ -57,9 +57,11 @@ class ImageResize {
 	
 	private $bg;
 	
-	private $file_prefix = "";
+	private $file_prefix;
 	
-	private $file_suffix = "";
+	private $file_suffix;
+	
+	private $file_extension;
 	
 	// set default value
 	function __construct() {
@@ -67,6 +69,9 @@ class ImageResize {
 		$this->new_height = 300;
 		$this->upload_patch = "";
 		$this->quality = 100;
+		$this->file_prefix = "";
+		$this->file_suffix = "";
+		$this->file_extension = "jpg";
     }
 	
 	// clean all variable
@@ -141,8 +146,8 @@ class ImageResize {
 		
 		$this->check("upload_dir");
 		
-		// set file location and new file name
-		$this->new_file = $this->upload_patch.$this->file_prefix.$this->clean_file_name().$this->file_suffix.".jpg";
+		// set file location and new file name and file extension
+		$this->new_file = $this->upload_patch.$this->file_prefix.$this->clean_file_name().$this->file_suffix.".".$this->file_extension;
 		
 		// if file not exist , copy image in upload patch
 		if($this->check("new_file") == true) {
